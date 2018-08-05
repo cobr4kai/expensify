@@ -13,7 +13,6 @@ import 'react-dates/initialize';
 
 
 const store = configureStore();
-
 const state = store.getState();
 console.log(getVisibleExpenses(state.expenses, state.filters));
 
