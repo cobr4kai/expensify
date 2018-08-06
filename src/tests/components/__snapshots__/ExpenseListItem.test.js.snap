@@ -11,9 +11,9 @@ exports[`should render ExpenseListItem with first expense 1`] = `
     </h3>
   </Link>
   <h3>
-    195
-     - 
-    0
+    $195.00
+    -
+    December, 31st, 1969
   </h3>
 </div>
 `;
