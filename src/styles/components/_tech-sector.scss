@@ -1,0 +1,149 @@
+.tech-app {
+  background: #f6f7fb;
+  color: #1f2933;
+  min-height: 100vh;
+}
+
+.tech-hero {
+  background: linear-gradient(120deg, #0f172a, #1d4ed8);
+  color: #fff;
+  padding: 4.8rem 0 5.6rem;
+}
+
+.tech-hero__eyebrow {
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.tech-hero__title {
+  font-size: 3.2rem;
+  margin: 0 0 1.4rem;
+}
+
+.tech-hero__subtitle {
+  font-size: 1.7rem;
+  max-width: 62rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tech-content {
+  padding: 3.6rem 0 6rem;
+}
+
+.tech-summary {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 4rem;
+}
+
+.tech-summary__card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+  padding: 2.4rem;
+}
+
+.tech-summary__card h2 {
+  margin: 0 0 0.6rem;
+}
+
+.tech-summary__description {
+  color: #52606d;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.tech-summary__metrics {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.tech-summary__label {
+  display: block;
+  font-size: 1.2rem;
+  color: #7b8794;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+}
+
+.tech-summary__value {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #102a43;
+}
+
+.tech-table__section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2.4rem;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+  margin-bottom: 3rem;
+}
+
+.tech-table__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.tech-table__header h2 {
+  margin: 0 0 0.4rem;
+}
+
+.tech-table__header p {
+  margin: 0;
+  color: #52606d;
+  font-size: 1.4rem;
+}
+
+.tech-table__pill {
+  background: #e0e7ff;
+  color: #1d4ed8;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+}
+
+.tech-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+}
+
+.tech-table th,
+.tech-table td {
+  text-align: left;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.tech-table th {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  color: #7b8794;
+}
+
+.tech-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .tech-hero__title {
+    font-size: 2.6rem;
+  }
+
+  .tech-table table {
+    font-size: 1.3rem;
+  }
+}
